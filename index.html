@@ -16,7 +16,7 @@
 			font-family: 'Poppins', sans-serif;
 		}
 	</style>
-	  <script>
+	<script>
 		tailwind.config = {
 		  theme: {
 			extend: {
@@ -29,10 +29,10 @@
 			}
 		  }
 		}
-	  </script>
+	</script>
 </head>
 <body class="font-poppins ">
-<header class="max-w-screen-2xl mx-auto lg:px-24 mt-6">
+	<header class="max-w-screen-2xl mx-auto lg:px-24 mt-6">
 		<!-- navbar -->
 		<nav>
 			<div class="navbar bg-base-100 ">
@@ -149,9 +149,30 @@
 
 		</div>
 	</section>
-</header>
+	</header>
 	
-
+	<main>
+		<!-- featured bikes -->
+		<section class="max-w-screen-2xl mx-auto lg:px-24 my-24">
+			<h1 class="text-5xl text-center font-semibold">Featured Bikes In This Year</h1>
+			<p class="text-center text-sm text-button-primary mb-12 mt-6">Best bike collection</p>
+			<!-- container -->
+			<div class="grid grid-cols-1 gap-8 lg:gap-24 md:grid-cols-2 lg:grid-cols-3">
+				<!-- first bike -->
+				<div>
+					<img class="mx-auto" src="./images/others/feature-bike.png" alt="">
+				</div>
+				<!-- second bike -->
+				<div>
+					<img class="mx-auto" src="./images/others/feature-bike.png" alt="">
+				</div>
+				<!-- third bike -->
+				<div>
+					<img class="mx-auto" src="./images/others/feature-bike.png" alt="">
+				</div>
+			</div>
+		</section>
+	</main>
 
 
 </body>
